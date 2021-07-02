@@ -13,14 +13,14 @@ namespace ATBM
 {
     public partial class Form1 : Form
     {
-        OracleConnection conn = new OracleConnection("Data Source = (DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))(CONNECT_DATA = (SERVICE_NAME = xe))); User Id = SYS; Password = 1234; DBA Privilege=SYSDBA;");
-        //conn.ConnectionString = @"Data Source = (DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))(CONNECT_DATA = (SERVICE_NAME = xe))); User Id = SYS; Password = 1234; DBA Privilege=SYSDBA;";
+        OracleConnection conn;
         string str = "";
         OracleDataAdapter adapter;
         OracleCommand command;
-        public Form1()
+        public Form1(OracleConnection connection)
         {
             InitializeComponent();
+            conn = connection;
         }
 
         private void Form1_Load(object sender, EventArgs e)

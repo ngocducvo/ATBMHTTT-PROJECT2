@@ -46,3 +46,10 @@ D:\HomeWork\3-2\ATBMTT\PH2\18120314_18120327_18120534\ATBM\bin\Debug\netcoreapp3
 D:\HomeWork\3-2\ATBMTT\PH2\18120314_18120327_18120534\ATBM\obj\Debug\netcoreapp3.1\ATBM.csproj.CopyComplete
 D:\HomeWork\3-2\ATBMTT\PH2\18120314_18120327_18120534\ATBM\obj\Debug\netcoreapp3.1\ATBM.genruntimeconfig.cache
 D:\HomeWork\3-2\ATBMTT\PH2\18120314_18120327_18120534\ATBM\obj\Debug\netcoreapp3.1\ATBM.BACSI.resources
+D:\HomeWork\3-2\ATBMTT\PH2\18120314_18120327_18120534\ATBM\obj\Debug\netcoreapp3.1\ATBM.Ketoan.resources
+D:\HomeWork\3-2\ATBMTT\PH2\18120314_18120327_18120534\ATBM\obj\Debug\netcoreapp3.1\ATBM.NhanvienBanthuoc.resources
+D:\HomeWork\3-2\ATBMTT\PH2\18120314_18120327_18120534\ATBM\obj\Debug\netcoreapp3.1\ATBM.NhanvienTaivu.resources
+D:\HomeWork\3-2\ATBMTT\PH2\18120314_18120327_18120534\ATBM\obj\Debug\netcoreapp3.1\ATBM.QuanlyChuyenmon.resources
+D:\HomeWork\3-2\ATBMTT\PH2\18120314_18120327_18120534\ATBM\obj\Debug\netcoreapp3.1\ATBM.QuanlyNhansu.resources
+D:\HomeWork\3-2\ATBMTT\PH2\18120314_18120327_18120534\ATBM\obj\Debug\netcoreapp3.1\ATBM.QuanlyTaivu.resources
+D:\HomeWork\3-2\ATBMTT\PH2\18120314_18120327_18120534\ATBM\obj\Debug\netcoreapp3.1\ATBM.Tiep_tan.resources

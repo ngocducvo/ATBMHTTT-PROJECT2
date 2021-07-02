@@ -9,13 +9,13 @@ using Oracle.ManagedDataAccess.Client;
 
 namespace ATBM
 {
-    public partial class BACSI : Form
+    public partial class QuanlyTaivu : Form
     {
         OracleConnection connection;
         string str = "";
         OracleDataAdapter adapter;
         OracleCommand command;
-        public BACSI(OracleConnection conn)
+        public QuanlyTaivu(OracleConnection conn)
         {
             InitializeComponent();
             connection = conn;

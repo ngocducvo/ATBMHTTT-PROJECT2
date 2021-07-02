@@ -20,7 +20,6 @@ namespace ATBM
         string str = "";
         OracleDataAdapter adapter;
         OracleCommand command;
-        int userId;
         public Login()
         {
             InitializeComponent();
@@ -47,13 +46,51 @@ namespace ATBM
                 result = command.ExecuteScalar().ToString();
                 //MessageBox.Show(result);
                 connection.Close();
-                if (result == "BACSI")
+                switch(result)
                 {
-                    BACSI cus = new BACSI();
-                    this.Hide();
-                    cus.ShowDialog();
-                    this.Show();
-                }
+                    case "BACSI":
+                        BACSI cus = new BACSI(connection);
+                        this.Hide();
+                        cus.ShowDialog();
+                        this.Show();
+                        break;
+                    case "QUANLYNHANSU":
+                        QuanlyNhansu qlns = new QuanlyNhansu(connection);
+                        this.Hide();
+                        qlns.ShowDialog();
+                        this.Show();
+                        break;
+                    case "QUANLYTAIVU":
+                        QuanlyTaivu qltv = new QuanlyTaivu(connection);
+                        this.Hide();
+                        qltv.ShowDialog();
+                        this.Show();
+                        break;
+                    case "TIEPTAN":
+                        Tiep_tan tt = new Tiep_tan(connection);
+                        this.Hide();
+                        tt.ShowDialog();
+                        this.Show();
+                        break;
+                    case "NHANVIENTAIVU":
+                        NhanvienTaivu nvtv = new NhanvienTaivu(connection);
+                        this.Hide();
+                        nvtv.ShowDialog();
+                        this.Show();
+                        break;
+                    case "NHANVIENBANTHUOC":
+                        NhanvienBanthuoc nvbt = new NhanvienBanthuoc(connection);
+                        this.Hide();
+                        nvbt.ShowDialog();
+                        this.Show();
+                        break;
+                    case "KETOAN":
+                        Ketoan kt = new Ketoan(connection);
+                        this.Hide();
+                        kt.ShowDialog();
+                        this.Show();
+                        break;
+                }    
             }
             catch
             {
